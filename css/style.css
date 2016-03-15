@@ -6388,5 +6388,8 @@ Testimonial
     width: auto;
     height: 190px;
 }
-
-
+.company-name {
+  font-size: 20px;
+  margin-left: 55px;
+  margine-top:-50px;
+}
