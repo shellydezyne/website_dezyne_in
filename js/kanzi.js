@@ -228,7 +228,7 @@ jQuery(document).ready(function ($) {
 
     /* jQuery Tweetable */
     $('.footer-recent-tweets-container').tweetable({
-        username: 'envato',
+        username: 'dezynetech',
         limit: 2,
         time: true,
         html5: true,
@@ -473,7 +473,7 @@ var map;
 function contactusMap() {
 
     var myLatlng, mapOptions, marker;
-    var myLatlng = new google.maps.LatLng(-37.817590, 144.965188);
+    var myLatlng = new google.maps.LatLng(28.586598, 77.071817);
 
     mapOptions = {
         zoom: 11,
@@ -487,7 +487,7 @@ function contactusMap() {
     marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        title: 'Envato'
+        title: 'Dezyne Technologies'
     });
 }
 

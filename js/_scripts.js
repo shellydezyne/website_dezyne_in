@@ -2643,33 +2643,33 @@ if (!Object.create) {
  * to offer multiple easing options
  *
  * TERMS OF USE - jQuery Easing
- * 
- * Open source under the BSD License. 
- * 
+ *
+ * Open source under the BSD License.
+ *
  * Copyright © 2008 George McGinley Smith
  * All rights reserved.
- * 
- * Redistribution and use in source and binary forms, with or without modification, 
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
  * are permitted provided that the following conditions are met:
- * 
- * Redistributions of source code must retain the above copyright notice, this list of 
+ *
+ * Redistributions of source code must retain the above copyright notice, this list of
  * conditions and the following disclaimer.
- * Redistributions in binary form must reproduce the above copyright notice, this list 
- * of conditions and the following disclaimer in the documentation and/or other materials 
+ * Redistributions in binary form must reproduce the above copyright notice, this list
+ * of conditions and the following disclaimer in the documentation and/or other materials
  * provided with the distribution.
- * 
- * Neither the name of the author nor the names of contributors may be used to endorse 
+ *
+ * Neither the name of the author nor the names of contributors may be used to endorse
  * or promote products derived from this software without specific prior written permission.
- * 
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
  * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
  *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
  *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
- *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
  * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
- *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
- * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
 
@@ -2859,33 +2859,33 @@ jQuery.extend(jQuery.easing,
 /*
  *
  * TERMS OF USE - EASING EQUATIONS
- * 
- * Open source under the BSD License. 
- * 
+ *
+ * Open source under the BSD License.
+ *
  * Copyright © 2001 Robert Penner
  * All rights reserved.
- * 
- * Redistribution and use in source and binary forms, with or without modification, 
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
  * are permitted provided that the following conditions are met:
- * 
- * Redistributions of source code must retain the above copyright notice, this list of 
+ *
+ * Redistributions of source code must retain the above copyright notice, this list of
  * conditions and the following disclaimer.
- * Redistributions in binary form must reproduce the above copyright notice, this list 
- * of conditions and the following disclaimer in the documentation and/or other materials 
+ * Redistributions in binary form must reproduce the above copyright notice, this list
+ * of conditions and the following disclaimer in the documentation and/or other materials
  * provided with the distribution.
- * 
- * Neither the name of the author nor the names of contributors may be used to endorse 
+ *
+ * Neither the name of the author nor the names of contributors may be used to endorse
  * or promote products derived from this software without specific prior written permission.
- * 
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
  * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
  *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
  *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
- *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
  * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
- *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
- * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  *//*
   * jQuery EasyTabs plugin 3.2.0
@@ -4015,7 +4015,7 @@ jQuery.extend(jQuery.easing,
  + version 2.0b2.120519
  + Copyright 2011/12 Paul Irish & Luke Shumard
  + Licensed under the MIT license
- 
+
  + Documentation: http://infinite-scroll.com/
  */
 
@@ -4074,7 +4074,7 @@ jQuery.extend(jQuery.easing,
     };
 
     $.infinitescroll.prototype = {
-        /*	
+        /*
          ----------------------------
          Private methods
          ----------------------------
@@ -4268,7 +4268,7 @@ jQuery.extend(jQuery.easing,
             } else if (path.match(/^(.*?)\b2\b(.*?$)/)) {
                 path = path.match(/^(.*?)\b2\b(.*?$)/).slice(1);
 
-                // if there is any 2 in the url at all.    
+                // if there is any 2 in the url at all.
             } else if (path.match(/^(.*?)2(.*?$)/)) {
 
                 // page= is used in django:
@@ -4484,7 +4484,7 @@ jQuery.extend(jQuery.easing,
                 $(this).parent().fadeOut(opts.loading.speed);
             });
 
-            // user provided callback when done    
+            // user provided callback when done
             opts.errorCallback.call($(opts.contentSelector)[0], 'done');
         },
         // grab each selector option and see if any fail
@@ -4498,7 +4498,7 @@ jQuery.extend(jQuery.easing,
 
             return true;
         },
-        /*	
+        /*
          ----------------------------
          Public methods
          ----------------------------
@@ -4530,7 +4530,7 @@ jQuery.extend(jQuery.easing,
             // increment the URL bit. e.g. /page/3/
             opts.state.currPage++;
 
-            // Manually control maximum page 
+            // Manually control maximum page
             if (opts.maxPage != undefined && opts.state.currPage > opts.maxPage) {
                 opts.state.isBeyondMaxPage = true;
                 this.destroy();
@@ -4679,22 +4679,22 @@ jQuery.extend(jQuery.easing,
     };
 
 
-    /*	
+    /*
      ----------------------------
      Infinite Scroll function
      ----------------------------
-     
+
      Borrowed logic from the following...
-     
+
      jQuery UI
      - https://github.com/jquery/jquery-ui/blob/master/ui/jquery.ui.widget.js
-     
+
      jCarousel
      - https://github.com/jsor/jcarousel/blob/master/lib/jquery.jcarousel.js
-     
+
      Masonry
-     - https://github.com/desandro/masonry/blob/master/jquery.masonry.js		
-     
+     - https://github.com/desandro/masonry/blob/master/jquery.masonry.js
+
      */
 
     $.fn.infinitescroll = function infscr_init(options, callback) {
@@ -4704,7 +4704,7 @@ jQuery.extend(jQuery.easing,
 
         switch (thisCall) {
 
-            // method 
+            // method
             case 'string':
                 var args = Array.prototype.slice.call(arguments, 1);
 
@@ -4728,7 +4728,7 @@ jQuery.extend(jQuery.easing,
 
                 break;
 
-                // creation 
+                // creation
             case 'object':
 
                 this.each(function () {
@@ -4763,7 +4763,7 @@ jQuery.extend(jQuery.easing,
 
 
 
-    /* 
+    /*
      * smartscroll: debounced scroll event for jQuery *
      * https://github.com/lukeshumard/smartscroll
      * Based on smartresize by @louis_remi: https://github.com/lrbabe/jquery.smartresize.js *
@@ -7187,10 +7187,10 @@ var pp_alreadyInitialized = false; // Used for the deep linking to make sure not
  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  copies of the Software, and to permit persons to whom the Software is
  furnished to do so, subject to the following conditions:
- 
+
  The above copyright notice and this permission notice shall be included in
  all copies or substantial portions of the Software.
- 
+
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -7277,9 +7277,9 @@ var pp_alreadyInitialized = false; // Used for the deep linking to make sure not
 
 /*!
  jQuery WaitForImages
- 
+
  Copyright (c) 2012 Alex Dickson
- 
+
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation
  files (the "Software"), to deal in the Software without
@@ -7288,10 +7288,10 @@ var pp_alreadyInitialized = false; // Used for the deep linking to make sure not
  copies of the Software, and to permit persons to whom the
  Software is furnished to do so, subject to the following
  conditions:
- 
+
  The above copyright notice and this permission notice shall be
  included in all copies or substantial portions of the Software.
- 
+
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -7300,11 +7300,11 @@ var pp_alreadyInitialized = false; // Used for the deep linking to make sure not
  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  OTHER DEALINGS IN THE SOFTWARE.
- 
- 
+
+
  https://github.com/alexanderdickson/waitForImages
- 
- 
+
+
  */
 
 // WAIT FOR IMAGES
@@ -12543,7 +12543,7 @@ function revslider_showDoubleJqueryError(sliderID) {
                  if (sca==undefined) sca=1;
                  nextcaption.transition({'rotate':rot, 'scale':sca, 'opacity':0,'left':ll+'px','top':tt+"px"},(nextcaption.data('speed')+10), function() { nextcaption.removeClass('noFilterClass');nextcaption.css({'visibility':'hidden'})});
                  } else {
-                 
+
                  nextcaption.animate({'opacity':0,'left':ll+'px','top':tt+"px"},{duration:(nextcaption.data('speed')+10), easing:easetype, complete:function() { nextcaption.removeClass('noFilterClass');nextcaption.css({'visibility':'hidden'})}});
                  }*/
                 endMoveCaption(nextcaption, opt);
@@ -13125,7 +13125,7 @@ function revslider_showDoubleJqueryError(sliderID) {
      * @param prefer (string, e.g. 'n', 'sw', 'w') - the direction to prefer
      *        if there are no viewable region edges effecting the tooltip's
      *        gravity. It will try to vary from this minimally, for example,
-     *        if 'sw' is preferred and an element is near the right viewable 
+     *        if 'sw' is preferred and an element is near the right viewable
      *        region edge, but not the top edge, it will set the gravity for
      *        that element's tooltip to be 'se', preserving the southern
      *        component.
@@ -13873,7 +13873,7 @@ function revslider_showDoubleJqueryError(sliderID) {
     // toMS('fast') => $.fx.speeds[i] => "200ms"
     // toMS('normal') //=> $.fx.speeds._default => "400ms"
     // toMS(10) //=> '10ms'
-    // toMS('100ms') //=> '100ms'  
+    // toMS('100ms') //=> '100ms'
     //
     function toMS(duration) {
         var i = duration;
@@ -15442,7 +15442,7 @@ if (!jQuery.support.cors && jQuery.ajaxTransport && window.XDomainRequest) {
  *
  * With modifications from Philipp Robbel (http://www.robbel.com/) & Patrick DW (stackoverflow)
  *
- * Revision: $Id: jquery.tweetable.js 2013-06-16 $ 
+ * Revision: $Id: jquery.tweetable.js 2013-06-16 $
  *
  */
 
@@ -16510,7 +16510,7 @@ var map;
 function contactusMap() {
 
     var myLatlng, mapOptions, marker;
-    var myLatlng = new google.maps.LatLng(-37.817590, 144.965188);
+    var myLatlng = new google.maps.LatLng(28.586598, 77.071817);
 
     mapOptions = {
         zoom: 11,

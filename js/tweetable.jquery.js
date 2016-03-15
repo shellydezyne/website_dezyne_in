@@ -7,7 +7,7 @@
  *
  * With modifications from Philipp Robbel (http://www.robbel.com/) & Patrick DW (stackoverflow)
  *
- * Revision: $Id: jquery.tweetable.js 2013-06-16 $ 
+ * Revision: $Id: jquery.tweetable.js 2013-06-16 $
  *
  */
 
@@ -105,7 +105,7 @@
     // Define plugin defaults
     $.fn.tweetable.options = {
         limit: 5, // Number of tweets to show
-        username: 'philipbeel', // @username tweets to display
+        username: 'dezynetech', // @username tweets to display
         time: false, // Display date
         rotate: false, // Rotate tweets
         speed: 5000, // Speed of rotation
